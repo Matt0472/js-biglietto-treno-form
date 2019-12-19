@@ -49,7 +49,18 @@ select {
   padding: 5px;
   border-radius: 5px;
   border: 1px solid #c74c4c;
+  cursor: pointer;
 }
 input::placeholder {
   text-align: center;
+}
+.btn {
+  margin: 10px;
+  padding: 7px 12px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 1px solid rgb(113, 113, 113);
+  background-color: rgba(113, 113, 113, 0.3);
+  color: #c74c4c;
+  cursor: pointer;
 }
