@@ -54,6 +54,10 @@ select {
 input::placeholder {
   text-align: center;
 }
+input:focus,
+select:focus {
+  background-color: #c74c4c;
+}
 .btn {
   margin: 10px;
   padding: 7px 12px;
