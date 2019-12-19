@@ -13,52 +13,52 @@
       <div class="calcolo_biglietto">
         <div class="row">
           <div class="col">
-            <label for="">Inserisci il tuo nome</label>
-            <input type="text" name="" value="" placeholder="inserisci il tuo nome">
+            <label for="nome-utente">Inserisci il tuo nome</label>
+            <input id="nome-utente" type="text" name="" value="" placeholder="inserisci il tuo nome">
           </div>
           <div class="col">
-            <label for="">Km da Percorrere</label>
-            <input type="number" name="" value="" placeholder="km da percorrere">
+            <label for="km">Km da Percorrere</label>
+            <input id="km" type="number" name="" value="" placeholder="km da percorrere">
           </div>
           <div class="col">
-            <label for="">Fascia di età</label>
-            <select class="" name="">
+            <label for="fascia-età">Fascia di età</label>
+            <select id="fascia-età" class="" name="">
               <option value=""></option>
-              <option>Tra 0 e 18</option>
-              <option>Tra 18 e 65</option>
-              <option>Over 65</option>
+              <option value="minorenne">Tra 0 e 18</option>
+              <option value="maggiorenne">Tra 18 e 65</option>
+              <option value="over65">Over 65</option>
             </select>
           </div>
         </div>
         <div class="row">
-          <button class="btn" type="button" name="button">GENERA</button>
-          <button class="btn" type="button" name="button">ANNULLA</button>
+          <button id="genera" class="btn">GENERA</button>
+          <button id="annulla" class="btn">ANNULLA</button>
         </div>
       </div>
       <h2 class="title">IL TUO BIGLIETTO</h2>
-      <div class="tuobiglietto">
+      <div id="ticket" class="tuobiglietto hidden">
         <h3>DETTAGLIO PASSEGGERO</h3>
           <div class="ticket_wrapper">
             <div class="dettagli">
-              <h4>NOME PASSEGGERO</h4>
-              <h5></h5>
+              <h3>NOME PASSEGGERO</h3>
+              <h3 id="nome-passeggero"></h3>
             </div>
             <div class="tariffa">
               <table>
                 <thead>
                   <tr>
-                      <th>Offerta</th>
-                      <th>Carrozza</th>
-                      <th>Codice CP</th>
-                      <th>Costo Biglietto</th>
+                      <th >Offerta</th>
+                      <th >Carrozza</th>
+                      <th >Codice CP</th>
+                      <th >Costo Biglietto</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td id="offerta"></td>
+                    <td id="carrozza"></td>
+                    <td id="codice-cp"></td>
+                    <td id="prezzo"></td>
                   </tr>
                 </tbody>
               </table>

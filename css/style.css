@@ -90,6 +90,12 @@ input:focus::placeholder {
   background-color: rgb(74, 74, 74);
   border: 1px solid rgb(113, 113, 113);
 }
+#nome-passeggero {
+  margin-top: 25px;
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
 .tariffa {
   width: 80%;
   padding: 30px;
@@ -99,4 +105,15 @@ input:focus::placeholder {
 th {
   padding-right: 50px;
   font-size: 20px;
+}
+td {
+  padding-top: 20px;
+}
+.hidden {
+  opacity: 0;
+  transition: 1s;
+}
+.show {
+  opacity: 1;
+  transition: 1s;
 }
